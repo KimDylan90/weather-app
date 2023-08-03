@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
 import { TextField, Button, Grid } from '@mui/material';
-import WeatherCard from './WeatherCard';
+import WeatherCard from '.WeatherCard';
 import axios from 'axios';
 
-const API_KEY = 'ce8f6bc8a1bca87ae1b45f9387a3652d';
-const API_URL = 'https://api.openweathermap.org/data/2.5/weather';
+const API_KEY = '14a44401532f28285f9dc0ce7d6ac1be';
+const API_URL = 'https://api.openweathermap.org';
 
 const WeatherApp = () => {
   const [city, setCity] = useState('');
